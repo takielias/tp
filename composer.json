@@ -1,0 +1,14 @@
+{
+    "name": "takielias/tp",
+    "description": "Twitter API Controller",
+    "type": "Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taki Elias",
+            "email": "takiahmadelias@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
