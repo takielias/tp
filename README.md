@@ -10,7 +10,7 @@ Add providers in Config/App.php
 
         takielias\tp\TpServiceProvider::class,
 
-Add aliases Provider in Config/App.php
+Add aliases in Config/App.php
 
         'Tp' => takielias\tp\Facades\Tp::class,
         
