@@ -1,3 +1,3 @@
 # tp
-Twitter Api With Laravel.
+Twitter Official Api For Laravel.
 Credit Goes to https://github.com/dg/twitter-php
