@@ -10,17 +10,22 @@
     }
   ],
   "minimum-stability": "stable",
-  "require": {},
+  "require": {
+    "laravel/framework": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "takielias\\tp\\": "src/"
+    }
+  },
   "extra": {
     "laravel": {
       "providers": [
         "takielias\\tp\\TpServiceProvider"
-      ]
-    }
-  },
-  "autoload": {
-    "psr-4": {
-      "takielias\\tp\\": "vendor/takielias/tp/src"
+      ],
+      "aliases": {
+        "Tp": "takielias\\tp\\Facades\\Tp"
+      }
     }
   }
 }
