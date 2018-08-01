@@ -1,14 +1,29 @@
 {
-    "name": "takielias/tp",
-    "description": "Twitter API Controller",
-    "type": "Laravel",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Taki Elias",
-            "email": "takiahmadelias@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
+  "name": "takielias/tp",
+  "description": "Twitter API Controller",
+  "type": "Laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Taki Elias",
+      "email": "takiahmadelias@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "takielias\\tp\\TpServiceProvider"
+      ]
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "takielias\\tp\\": "vendor/takielias/tp/src"
+    },
+    "classmap": [
+      "tests"
+    ]
+  }
 }
