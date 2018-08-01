@@ -21,9 +21,6 @@
   "autoload": {
     "psr-4": {
       "takielias\\tp\\": "vendor/takielias/tp/src"
-    },
-    "classmap": [
-      "tests"
-    ]
+    }
   }
 }
