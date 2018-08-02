@@ -5,7 +5,7 @@ Twitter Official Api For Laravel 5.0+ or Upper version. Credit Goes to [Twitter 
 
 `composer require takielias/tp`
 
-If you are using Laravel 5.4+, <a href = "https://laravel-news.com/package-auto-discovery">Laravel Package Auto-Discovery</a> Feature is availabe. No need additional settiongs.
+If you are using Laravel 5.4+, <a href = "https://laravel-news.com/package-auto-discovery">Laravel Package Auto-Discovery</a> Feature is availabe. No need additional settings.
 
 If you are using laravel 5.4 or Lower, Follow the steps below to make it Working.
 
